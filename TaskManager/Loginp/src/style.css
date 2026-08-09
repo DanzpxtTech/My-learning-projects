@@ -1,0 +1,78 @@
+body {
+  background-color: #f4eaea;
+  color: #e4e4e4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+  background-color: #1c1c1c;
+  width: 400px;
+  padding: 35px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.container label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #cfcfcf;
+  align-self: flex-start;
+}
+
+.container input {
+  height: 38px;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  padding: 0 10px;
+  background-color: #2a2a2a;
+  color: white;
+  outline: none;
+  transition: 0.2s;
+}
+
+.container input:focus {
+  border-color: cornflowerblue;
+  box-shadow: 0 0 5px cornflowerblue;
+}
+
+.container button {
+  width: 100%;
+  height: 42px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: linear-gradient(135deg, cornflowerblue, #4a7cff);
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.container button:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
+}
+
+#check {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.container button:active {
+  transform: scale(1);
+}
+
+.container h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-self: center;
+}

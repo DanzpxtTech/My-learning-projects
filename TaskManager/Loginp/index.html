@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="icon"
+      href="/Gerenciador_tarefas/Loginp/assets/do-utilizador.png"
+    />
+  </head>
+  <body>
+    <form class="container">
+      <h1>Faça login</h1>
+
+      <h2 style="color: red" ;>E-mail:test, Password:test</h2>
+
+      <input type="text" placeholder="User:" required id="user" />
+      <input type="password" placeholder="Password:" required id="password" />
+
+      <div class="check-area">
+        <input type="checkbox" id="check" />
+        <label for="check">Remember me</label>
+      </div>
+
+      <button type="button" onclick="login()">Submit</button>
+    </form>
+    <script src="src/app.js"></script>
+  </body>
+</html>
