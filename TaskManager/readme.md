@@ -22,13 +22,8 @@ A task management application built with **HTML, CSS, and JavaScript**.
 
 This project was developed as part of my web development learning journey, focusing on practicing **JavaScript, DOM manipulation, events, and browser data storage**.
 
-## How to Run
 
-1. Clone this repository.
-2. Open the `TaskManager` folder.
-3. Open the main `.html` file in your browser.
-
-No dependencies are required.
+## !No dependencies are required.!
 
 ## Project Structure
 
