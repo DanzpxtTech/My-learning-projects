@@ -1,0 +1,121 @@
+:root {
+  /* Main colors */
+  --bg-color: #323131;
+  --surface-color: #282727;
+  --border-color: #262626;
+  --shadow-color: rgba(124, 116, 116, 0.747);
+
+  /* Yellows */
+  --yellow-primary: #ffd600;
+  --yellow-hover: #ffea00;
+  --yellow-dark: #ccab00;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-button: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 10px;
+  min-height: 100vh;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+header {
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  font-size: 30px;
+  color: var(--yellow-dark);
+  background-color: var(--surface-color);
+  padding: 5px;
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: var(--surface-color);
+  border: 1px solid black;
+  width: 95%;
+  max-width: 600px;
+  height: 200px;
+  margin: 15px;
+  align-self: center;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: var(--surface-color);
+
+  border: 1px solid var(--border-color);
+  width: 99%;
+  height: 100px;
+
+  align-self: center;
+}
+
+#city {
+  outline: none;
+  padding: 15px;
+  border: 5px solid var(--border-color);
+  margin: 5px;
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+#Search {
+  margin: 3px;
+  outline: none;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid var(--border-color);
+  background-color: var(--yellow-primary);
+  color: var(--text-button);
+  font-size: 20px;
+  width: 300px;
+  transition:
+    transform 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out;
+}
+
+#Search:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 5px var(--shadow-color);
+}
+
+#Search:active {
+  transform: scale(1);
+}
