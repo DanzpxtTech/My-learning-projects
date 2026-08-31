@@ -6,3 +6,4 @@ My projects whyle i study javascript and other languages
 
 - Weather App
 - To-Do List
+- Task Manager
